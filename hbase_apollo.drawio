@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T10:08:16.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.1" etag="9xc5FlyOwS7e4gsYZ0-E" type="github"><diagram id="P5bsK7Ryc_mn-W6zxIfY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-11T10:48:56.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-hIP0GBSviNyXU9VxqtE" version="20.0.1" type="github">
+  <diagram id="P5bsK7Ryc_mn-W6zxIfY" name="Page-1">
+    <mxGraphModel dx="1298" dy="808" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pexaSJ4JPyXdbgfQbmr4-1" target="pexaSJ4JPyXdbgfQbmr4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-1" value="Apollo Configuration Center" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-3" value="Hbase-Driver&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="230" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-5" value="Hbase Masters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="50" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-6" value="Hbase Regionservers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="230" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-7" value="Hbase ThriftServers&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="390" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pexaSJ4JPyXdbgfQbmr4-3" target="pexaSJ4JPyXdbgfQbmr4-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="260" as="sourcePoint" />
+            <mxPoint x="775" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pexaSJ4JPyXdbgfQbmr4-3" target="pexaSJ4JPyXdbgfQbmr4-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="280" as="sourcePoint" />
+            <mxPoint x="815" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pexaSJ4JPyXdbgfQbmr4-3" target="pexaSJ4JPyXdbgfQbmr4-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="295" as="sourcePoint" />
+            <mxPoint x="815" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-13" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ansible-playbook&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-14" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ansible-playbook&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="705" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;di-ops-agent&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="335" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pexaSJ4JPyXdbgfQbmr4-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ansible-playbook&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="650" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
